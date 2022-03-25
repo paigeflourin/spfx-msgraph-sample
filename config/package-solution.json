@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "msgraph-sample-client-side-solution",
+    "id": "63ec02b2-e1b4-400a-94c2-116fba10df05",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "msgraph-sample description"
+      },
+      "longDescription": {
+        "default": "msgraph-sample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "msgraph-sample Feature",
+        "description": "The feature that activates elements of the msgraph-sample solution.",
+        "id": "3f985480-1f6b-4f6b-a791-dff90e69d678",
+        "version": "1.0.0.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Contacts.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "People.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/msgraph-sample.sppkg"
+  }
+}

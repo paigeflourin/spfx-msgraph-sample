@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "msgraph-sample",
+    "libraryId": "63ec02b2-e1b4-400a-94c2-116fba10df05",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "msgraph-sample",
+    "solutionShortDescription": "msgraph-sample description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
